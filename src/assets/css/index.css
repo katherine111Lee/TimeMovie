@@ -1,0 +1,145 @@
+/* CSS Document */
+*,::before,::after{ margin:0; padding:0; box-sizing:border-box;}
+
+a, article, aside, audio, b, blockquote, body, canvas, caption, dd,  details,div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, ol, output, p,s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+{ margin: 0; padding: 0;  -webkit-touch-callout: none;/*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单 */-webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+ol, ul,li{ list-style: none;}
+
+table { border-collapse: collapse;/*表格的边线重叠*/ border-spacing: 0; }
+input,textarea{resize:none;/*调整尺寸*/ -webkit-user-select: auto !important;}
+
+:focus{outline:none;}
+
+input[type="submit"], input[type="reset"], input[type="button"], input[type="password"], input[type="text"], input[type="search"], input[type="number"], button {
+  -webkit-appearance: none;/* 针对表单的默认的样式进行清除  比如立体效果*/
+  outline: none;
+}
+
+img{ display:block;vertical-align: middle;border: 0 none;}
+
+a,a:link,a:visited,a:hover{ text-decoration:none; color:#343434; }
+
+.clearfix:after{content:""; display:block; height:0; clear:both; visibility:hidden;}
+
+.fl{float:left;}
+.fr{float:right;}
+html,body{
+  height:100%;
+  background: #fff;
+}
+u,i,em{
+  font-style: normal;
+}
+strong{
+  font-weight: normal;
+}
+u{
+  text-decoration: none;
+}
+html{font-size:100px;/*表示100px=1rem;       625%    62.5%*/}
+
+body{
+  font-family: "microsoft yahei", "\534E\6587\7EC6\9ED1", Verdana, Arial, Helvetica, sans-serif;
+  font-size:24px;
+  /*background:#ccc;*/
+  -webkit-user-select:none; /*禁止选中内容*/
+  -webkit-text-size-adjust: none;/*不调整（拉伸）字大小*/}
+
+/*微软雅黑      华文细黑                                         最后一个字体：ios系统默认 */
+.m_layout{
+  width:100%;
+  background:rgba(255,255,255,1);
+  -webkit-overflow-scrolling:touch;
+  max-width:7.5rem;
+  min-width:3.2rem;
+  margin:0 auto;
+}
+@media screen and (min-width:320px) {
+  html {
+    font-size: 42.66px
+  }
+  body {
+    font-size: 12px
+  }
+}
+@media screen and (min-width:360px) {
+  html {
+    font-size: 48px
+  }
+  body {
+    font-size: 12px
+  }
+}
+@media screen and (min-width:375px) {
+  html {
+    font-size: 50px
+  }
+  body {
+    font-size: 12px
+  }
+}
+@media screen and (min-width:384px) {
+  html {
+    font-size: 51.2px
+  }
+  body {
+    font-size: 14px
+  }
+}
+@media screen and (min-width:400px) {
+  html {
+    font-size: 53.34px
+  }
+  body {
+    font-size: 14px
+  }
+}
+@media screen and (min-width:414px) {
+  html {
+    font-size: 55.2px
+  }
+  body {
+    font-size: 14px
+  }
+}
+@media screen and (min-width:424px) {
+  html {
+    font-size: 56.53px
+  }
+  body {
+    font-size: 14px
+  }
+}
+@media screen and (min-width:480px) {
+  html {
+    font-size: 64px
+  }
+  body {
+    font-size: 15.36px
+  }
+}
+@media screen and (min-width:540px) {
+  html {
+    font-size: 72px
+  }
+  body {
+    font-size: 17.28px
+  }
+}
+@media screen and (min-width:720px) {
+  html {
+    font-size: 96px
+  }
+  body {
+    font-size: 23.04px
+  }
+}
+@media screen and (min-width:750px) {
+  html {
+    font-size: 100px
+  }
+  body {
+    font-size: 24px
+  }
+}
